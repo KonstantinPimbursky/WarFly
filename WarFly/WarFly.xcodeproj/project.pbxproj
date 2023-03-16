@@ -14,6 +14,7 @@
 		B51300E529C2D939004D9188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51300E429C2D939004D9188 /* Assets.xcassets */; };
 		B51300E829C2D939004D9188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51300E629C2D939004D9188 /* LaunchScreen.storyboard */; };
 		B51300EF29C2DFCE004D9188 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300EE29C2DFCE004D9188 /* Background.swift */; };
+		B51300F329C37FCD004D9188 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300F229C37FCD004D9188 /* Island.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B51300E429C2D939004D9188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51300E729C2D939004D9188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51300EE29C2DFCE004D9188 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		B51300F229C37FCD004D9188 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				B51300E429C2D939004D9188 /* Assets.xcassets */,
 				B51300E629C2D939004D9188 /* LaunchScreen.storyboard */,
 				B51300EE29C2DFCE004D9188 /* Background.swift */,
+				B51300F229C37FCD004D9188 /* Island.swift */,
 			);
 			path = WarFly;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				B51300DE29C2D937004D9188 /* GameScene.swift in Sources */,
 				B51300E029C2D937004D9188 /* GameViewController.swift in Sources */,
 				B51300D829C2D937004D9188 /* AppDelegate.swift in Sources */,
+				B51300F329C37FCD004D9188 /* Island.swift in Sources */,
 				B51300EF29C2DFCE004D9188 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
