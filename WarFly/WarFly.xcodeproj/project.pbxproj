@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B51300D829C2D937004D9188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300D729C2D937004D9188 /* AppDelegate.swift */; };
-		B51300DA29C2D937004D9188 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B51300D929C2D937004D9188 /* GameScene.sks */; };
-		B51300DC29C2D937004D9188 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B51300DB29C2D937004D9188 /* Actions.sks */; };
 		B51300DE29C2D937004D9188 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300DD29C2D937004D9188 /* GameScene.swift */; };
 		B51300E029C2D937004D9188 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300DF29C2D937004D9188 /* GameViewController.swift */; };
 		B51300E329C2D937004D9188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51300E129C2D937004D9188 /* Main.storyboard */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		B51300D429C2D937004D9188 /* WarFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51300D729C2D937004D9188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B51300D929C2D937004D9188 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B51300DB29C2D937004D9188 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B51300DD29C2D937004D9188 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B51300DF29C2D937004D9188 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B51300E229C2D937004D9188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				B51300D729C2D937004D9188 /* AppDelegate.swift */,
-				B51300D929C2D937004D9188 /* GameScene.sks */,
-				B51300DB29C2D937004D9188 /* Actions.sks */,
 				B51300DD29C2D937004D9188 /* GameScene.swift */,
 				B51300DF29C2D937004D9188 /* GameViewController.swift */,
 				B51300E129C2D937004D9188 /* Main.storyboard */,
@@ -130,10 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51300E329C2D937004D9188 /* Main.storyboard in Resources */,
-				B51300DA29C2D937004D9188 /* GameScene.sks in Resources */,
 				B51300E529C2D939004D9188 /* Assets.xcassets in Resources */,
 				B51300E829C2D939004D9188 /* LaunchScreen.storyboard in Resources */,
-				B51300DC29C2D937004D9188 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
