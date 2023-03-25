@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5071FEB29CF11BA00EB429B /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5071FEA29CF11BA00EB429B /* PowerUp.swift */; };
+		B5071FED29CF150700EB429B /* GreenPowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B5071FEC29CF127000EB429B /* GreenPowerUp.atlas */; };
 		B51300D829C2D937004D9188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300D729C2D937004D9188 /* AppDelegate.swift */; };
 		B51300DE29C2D937004D9188 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300DD29C2D937004D9188 /* GameScene.swift */; };
 		B51300E029C2D937004D9188 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51300DF29C2D937004D9188 /* GameViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5071FEA29CF11BA00EB429B /* PowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
+		B5071FEC29CF127000EB429B /* GreenPowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GreenPowerUp.atlas; sourceTree = "<group>"; };
 		B51300D429C2D937004D9188 /* WarFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51300D729C2D937004D9188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B51300DD29C2D937004D9188 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				B51300F429C384BF004D9188 /* Cloud.swift */,
 				B5BD4D4029CEFF6600999E08 /* GameBackgroundSpriteable+Extension.swift */,
 				B51300F629C38B64004D9188 /* PlayerPlane.swift */,
+				B5071FEA29CF11BA00EB429B /* PowerUp.swift */,
+				B5071FEC29CF127000EB429B /* GreenPowerUp.atlas */,
 				B51300F829C38C0E004D9188 /* PlayerPlane.atlas */,
 			);
 			path = WarFly;
@@ -142,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51300E329C2D937004D9188 /* Main.storyboard in Resources */,
+				B5071FED29CF150700EB429B /* GreenPowerUp.atlas in Resources */,
 				B51300F929C38C0E004D9188 /* PlayerPlane.atlas in Resources */,
 				B51300E529C2D939004D9188 /* Assets.xcassets in Resources */,
 				B51300E829C2D939004D9188 /* LaunchScreen.storyboard in Resources */,
@@ -162,6 +169,7 @@
 				B51300E029C2D937004D9188 /* GameViewController.swift in Sources */,
 				B51300D829C2D937004D9188 /* AppDelegate.swift in Sources */,
 				B51300F329C37FCD004D9188 /* Island.swift in Sources */,
+				B5071FEB29CF11BA00EB429B /* PowerUp.swift in Sources */,
 				B51300EF29C2DFCE004D9188 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
