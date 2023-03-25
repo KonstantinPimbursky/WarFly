@@ -28,7 +28,7 @@ class PowerUp: SKSpriteNode {
             let number = String(format: "%02d", i)
             animationSpriteArray.append(SKTexture(imageNamed: "missle_green_\(number)"))
         }
-        SKTexture.preload(animationSpriteArray) {
+        SKTexture.preload(animationSpriteArray) { [unowned self] in
             let rotation = SKAction.animate(
                 with: self.animationSpriteArray,
                 timePerFrame: 0.05,
