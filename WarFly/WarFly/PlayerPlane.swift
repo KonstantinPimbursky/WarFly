@@ -10,6 +10,8 @@ import CoreMotion
 
 class PlayerPlane: SKSpriteNode {
     
+    // MARK: - Public Properties
+    
     let motionManager = CMMotionManager()
     var xAcceleration: CGFloat = 0
     var screenSize = CGSize(
@@ -22,6 +24,8 @@ class PlayerPlane: SKSpriteNode {
     var moveDirection: TurnDirection = .none
     var stillTurning = false
     let animationSpriteStrides = [(13, 1, -1), (13, 26, 1), (13, 13, 1)]
+    
+    // MARK: - Public Methods
     
     static func populate(at point: CGPoint) -> PlayerPlane {
         let playerPlaneTexture = SKTexture(imageNamed: "airplane_3ver2_13")
@@ -59,6 +63,8 @@ class PlayerPlane: SKSpriteNode {
         let planeSequenceForever = SKAction.repeatForever(planeSequence)
         run(planeSequenceForever)
     }
+    
+    // MARK: - Private Methods
     
     fileprivate func preloadTextureArrays() {
         for i in 0...2 {

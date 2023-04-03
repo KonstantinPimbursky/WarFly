@@ -18,13 +18,21 @@ class GameScene: SKScene {
         spawnIslands()
         let deadline = DispatchTime.now() + .nanoseconds(1)
         DispatchQueue.main.asyncAfter(deadline: deadline) { [unowned self] in
-            self.player.performFly()
+            player.performFly()
         }
         
         let powerUp = PowerUp()
         powerUp.performRotation()
         powerUp.position = CGPoint(x: size.width / 2, y: size.height / 2)
         addChild(powerUp)
+        
+        let enemyTextureAtlas = SKTextureAtlas(named: "Enemy_1")
+        SKTextureAtlas.preloadTextureAtlases([enemyTextureAtlas]) { [unowned self] in
+            Enemy.textureAtlas = enemyTextureAtlas
+            let enemy = Enemy()
+            enemy.position = CGPoint(x: size.width / 2, y: size.height * 2 / 3)
+            addChild(enemy)
+        }
     }
     
     fileprivate func spawnClouds() {
